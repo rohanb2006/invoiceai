@@ -1,0 +1,10 @@
+{
+  "_how_to_use": "Open the image in data/real_invoices, read what is PRINTED, and fill the value below. Leave \"\" if the original label is right or you are unsure. Add a short note. Only fields you fill are changed.",
+  "real_00.jpg": {"invoice_date": "", "note": "label 25-09-2020, AI read 27-07-2020 - check the 'Invoice Date' printed"},
+  "real_14.jpg": {"invoice_date": "", "note": "label 22/05/2020, AI read 22/04/2020 - check invoice date vs due date"},
+  "real_03.jpg": {"invoice_number": "", "note": "label HDA/SAVS/21/1145, AI read HOA/SAVS/21/145"},
+  "real_10.jpg": {"invoice_number": "", "note": "label 2421542444, AI read 2421542444I41HRV"},
+  "real_11.jpg": {"invoice_number": "", "note": "label 10028068, AI read 13542310381 (probably the PO number)"},
+  "real_13.jpg": {"invoice_number": "", "note": "label MH0119200309, AI read MH0110200309"},
+  "real_18.jpg": {"invoice_number": "", "note": "label 071JDLHQE1122000, AI read 071JDLHQE1122001"}
+}

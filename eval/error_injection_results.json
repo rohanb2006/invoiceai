@@ -1,0 +1,104 @@
+{
+  "documents": {
+    "Indian GST invoices": 22,
+    "SROIE receipts": 361
+  },
+  "planted_errors_caught": "2410/2410 (100.0%)",
+  "by_source": {
+    "Indian GST invoices": "168/168",
+    "SROIE receipts": "2242/2242"
+  },
+  "by_mistake": {
+    "wrong grand total": {
+      "caught": "312/312",
+      "missed_on": [],
+      "not_tested": {
+        "check already flagging this document": 69,
+        "no grand total": 2
+      }
+    },
+    "grand total off by Rs 5": {
+      "caught": "312/312",
+      "missed_on": [],
+      "not_tested": {
+        "check already flagging this document": 69,
+        "no grand total": 2
+      }
+    },
+    "seller GSTIN typo": {
+      "caught": "12/12",
+      "missed_on": [],
+      "not_tested": {
+        "check already flagging this document": 371
+      }
+    },
+    "wrong tax type": {
+      "caught": "12/12",
+      "missed_on": [],
+      "not_tested": {
+        "check already flagging this document": 368,
+        "no CGST/SGST or IGST charged": 3
+      }
+    },
+    "CGST != SGST": {
+      "caught": "19/19",
+      "missed_on": [],
+      "not_tested": {
+        "not a CGST+SGST invoice": 327,
+        "check already flagging this document": 37
+      }
+    },
+    "taxable total wrong": {
+      "caught": "291/291",
+      "missed_on": [],
+      "not_tested": {
+        "check already flagging this document": 90,
+        "line items have no amounts": 2
+      }
+    },
+    "future date": {
+      "caught": "381/381",
+      "missed_on": [],
+      "not_tested": {
+        "check already flagging this document": 2
+      }
+    },
+    "tax amount inflated": {
+      "caught": "132/132",
+      "missed_on": [],
+      "not_tested": {
+        "no tax or no line amounts": 153,
+        "check already flagging this document": 98
+      }
+    },
+    "line qty x rate wrong": {
+      "caught": "260/260",
+      "missed_on": [],
+      "not_tested": {
+        "no line with quantity and rate": 44,
+        "check already flagging this document": 79
+      }
+    },
+    "invalid GST rate": {
+      "caught": "99/99",
+      "missed_on": [],
+      "not_tested": {
+        "no line with an amount": 14,
+        "check already flagging this document": 270
+      }
+    },
+    "invoice number missing": {
+      "caught": "289/289",
+      "missed_on": [],
+      "not_tested": {
+        "check already flagging this document": 94
+      }
+    },
+    "duplicate invoice": {
+      "caught": "291/291",
+      "not_tested": {
+        "no seller GSTIN or invoice number": 92
+      }
+    }
+  }
+}

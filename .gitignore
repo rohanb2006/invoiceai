@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.streamlit/secrets.toml
+.pytest_cache/
+data/real_invoices/
+eval/real_results.json
+data/sroie/
